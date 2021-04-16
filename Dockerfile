@@ -1,11 +1,15 @@
 FROM node:14-slim
 
+RUN yarn set version berry
 
 WORKDIR /usr/src/app
 
-COPY package.json yarn.lock ./
+COPY .yarn/plugins ./.yarn/plugins/
+COPY .yarn/releases ./.yarn/releases/
 
-RUN yarn install --frozen-lockfile && yarn cache clean
+COPY package.json yarn.lock .yarnrc.yml ./
+
+RUN yarn install --immutable && yarn cache clean
 
 COPY . ./
 
