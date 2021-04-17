@@ -1,9 +1,18 @@
 {
+  "exclude": [
+    "node_modules",
+    "dist",
+    "lib",
+    "__tests__",
+    "**/*.test*",
+    "**/*.spec*"
+  ],
+  "files": [],
   "compilerOptions": {
     "incremental": true,
     "target": "esnext",
-    "module": "commonjs",
-    "lib": ["es2019", "dom"],
+    "module": "esnext",
+    "lib": ["es2019"],
     "allowJs": false,
     "sourceMap": true,
     "strict": true,
@@ -14,6 +23,8 @@
     "removeComments": true,
     "experimentalDecorators": true,
     "noEmitOnError": true,
-    "declaration": true
+    "declaration": true,
+    "declarationMap": true,
+    "noFallthroughCasesInSwitch": true
   }
 }
