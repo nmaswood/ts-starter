@@ -1,2 +1,3 @@
-export const name = "iso";
-console.log("Hello world");
+import * as X from "@template/precedent-iso";
+
+console.log({ name });

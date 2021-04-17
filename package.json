@@ -2,7 +2,6 @@
   "name": "@template/mono-repo",
   "version": "0.0.0",
   "description": "Schedule all the things",
-  "main": "index.js",
   "repository": "git@github.com:nmaswood/lox-ts.git",
   "author": "Nasr.Maswood <nasrmaswood@gmail.com>",
   "license": "MIT",
