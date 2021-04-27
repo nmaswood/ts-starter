@@ -1,3 +1,1 @@
-import * as X from "@template/precedent-iso";
-
-console.log({ name });
+import * as _ from "@template/precedent-iso";

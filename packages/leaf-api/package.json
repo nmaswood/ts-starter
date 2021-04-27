@@ -15,7 +15,7 @@
     "test:debug": "node --inspect-brk node_modules/.bin/jest"
   },
   "dependencies": {
-    "@template/precedent-iso": "workspace:packages/precedent-iso"
+    "@template/precedent-iso": "../precedent-iso"
   },
   "devDependencies": {
     "@types/eslint": "^7",

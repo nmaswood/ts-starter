@@ -2298,7 +2298,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@template/leaf-api@workspace:packages/leaf-api"
   dependencies:
-    "@template/precedent-iso": "workspace:packages/precedent-iso"
+    "@template/precedent-iso": ../precedent-iso
     "@types/eslint": ^7
     "@types/prettier": ^2
     "@typescript-eslint/eslint-plugin": ^4.22.0
@@ -2361,10 +2361,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@template/precedent-iso@file:../precedent-iso::locator=%40template%2Fleaf-api%40workspace%3Apackages%2Fleaf-api":
+  version: 0.0.0
+  resolution: "@template/precedent-iso@file:../precedent-iso#../precedent-iso::hash=f2eb3d&locator=%40template%2Fleaf-api%40workspace%3Apackages%2Fleaf-api"
+  checksum: d284fb6ab558179f6ab0bf9317b0e5ad988cc98b4609f4c68b25f5faf8acb2bd977535624dbfbf69ce16b79bcff646d665d9173125c92584bef1837a2c6b689c
+  languageName: node
+  linkType: hard
+
 "@template/precedent-iso@file:../precedent-iso::locator=%40template%2Fleaf-app%40workspace%3Apackages%2Fleaf-app":
   version: 0.0.0
-  resolution: "@template/precedent-iso@file:../precedent-iso#../precedent-iso::hash=4740ba&locator=%40template%2Fleaf-app%40workspace%3Apackages%2Fleaf-app"
-  checksum: 658806a2582fd7478913c3572449705c0d9052ef6f5bab33858e4fd7e762a540e23201bf3203f9a6e3cc0c4ef59dd0135dc400392eb029ca2044dab3a101d6e0
+  resolution: "@template/precedent-iso@file:../precedent-iso#../precedent-iso::hash=f2eb3d&locator=%40template%2Fleaf-app%40workspace%3Apackages%2Fleaf-app"
+  checksum: d284fb6ab558179f6ab0bf9317b0e5ad988cc98b4609f4c68b25f5faf8acb2bd977535624dbfbf69ce16b79bcff646d665d9173125c92584bef1837a2c6b689c
   languageName: node
   linkType: hard
 

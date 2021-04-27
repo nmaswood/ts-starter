@@ -25,6 +25,8 @@
     "noEmitOnError": true,
     "declaration": true,
     "declarationMap": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "isolatedModules": true,
+    "moduleResolution": "node"
   }
 }

@@ -1,2 +1,1 @@
-export const name = "iso";
-console.log("Hello world");
+export const name = "iso is my name";

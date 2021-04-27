@@ -1,14 +1,9 @@
 {
-  "extends": "../../tsconfig/iso.json",
+  "extends": "../../tsconfig/node.json",
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "dist"
   },
   "exclude": ["node_modules", "dist"],
-  "paths": {
-    "@template/precedent-iso": "../precedent-iso/src"
-  },
-  "references": [
-    {"path": "../precedent-iso"}
-  ]
+  "include": ["src"]
 }
